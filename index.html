@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Detalle Especial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Para mi mejor amiga ✨</h1>
+        <p>Tengo algo especial para ti. Haz clic abajo:</p>
+        
+        <button id="btnGenerar">Abrir Carta y Flor</button>
+
+        <!-- Rosa sin el centro circular -->
+        <div id="flor" class="flor oculta">
+            <div class="rosa">
+                <div class="petalo p1"></div>
+                <div class="petalo p2"></div>
+                <div class="petalo p3"></div>
+                <div class="petalo p4"></div>
+                <div class="petalo p5"></div>
+                <div class="petalo p6"></div>
+            </div>
+            <div class="tallo">
+                <div class="hoja hoja-izquierda"></div>
+                <div class="hoja hoja-derecha"></div>
+            </div>
+        </div>
+
+        <!-- Carta con el mensaje -->
+        <div id="carta" class="carta oculta">
+            <h2>📜 Un mensaje para ti</h2>
+            <p id="mensajeCarta"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
